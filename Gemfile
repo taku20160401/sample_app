@@ -44,3 +44,7 @@ group :production do
 end
 
 gem 'coffee-script-source', '1.7.0'
+
+group :test do
+    gem 'capybara'
+end
